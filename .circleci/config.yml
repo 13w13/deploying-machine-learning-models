@@ -162,6 +162,6 @@ workflows:
             - train_and_upload_regression_model
           filters:
             branches:
-              -test2
+              - test2
               only:
                 - master
